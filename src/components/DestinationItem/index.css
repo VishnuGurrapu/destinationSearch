@@ -1,0 +1,19 @@
+/* Write your CSS here */
+.destination-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.destination-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.img {
+  width: 200px;
+}
+
+.name {
+  font-size: 12px;
+  margin-top: 10px;
+}

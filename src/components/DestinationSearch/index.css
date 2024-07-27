@@ -1,0 +1,44 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.search-input-container {
+  margin-bottom: 20px;
+  background-color: #f1f5f9;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-input {
+  padding: 8px;
+  font-size: 16px;
+  color: #0f172a;
+  border-width: 0px;
+  outline: none;
+  background-color: #f1f5f9;
+}
+.icon{
+  height: 20px;
+  margin: 10px;
+}
+.destinations-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-self: center;
+}
